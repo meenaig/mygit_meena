@@ -15,6 +15,7 @@ provider "azurerm" {
   features{}
 }
 
+
 resource "azurerm_resource_group" "res_grp" {
 name   = "res_grp"
 location = "East US"
