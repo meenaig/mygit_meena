@@ -18,5 +18,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "res_grp" {
 name   = "res_grp"
-location = "East US"
+location = "North Europe"
 }
